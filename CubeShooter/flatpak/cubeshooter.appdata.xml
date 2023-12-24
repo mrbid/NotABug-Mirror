@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+	<id type="desktop">cubeshooter.desktop</id>
+	<metadata_license>CC-BY-4.0</metadata_license>
+	<project_license>GPL-2.0-only</project_license>
+	<name>CubeShooter</name>
+	<summary>3D Arcade sTyle shoOter</summary>
+	<description>
+		<p>Just move around your mouse or you can use your keyboard, just click to toggle between mouse and keyboard control.</p>
+		<p>When not in mouse mode just use the keyboard arrow keys to move and spacebar to shoot. Press 'R' to reset the game.</p>
+	</description>
+	<screenshots>
+		<screenshot>https://dashboard.snapcraft.io/site_media/appmedia/2021/12/Screenshot_2021-12-27_09-20-59.png</screenshot>
+	</screenshots>
+	<url type="homepage">https://notabug.org/Vandarin/CubeShooter</url>
+	<releases>
+		<release version="3.0" date="2023-11-06" />
+	</releases>
+	<content_rating type="oars-1.0" />
+</application>

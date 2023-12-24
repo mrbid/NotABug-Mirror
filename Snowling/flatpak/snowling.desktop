@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Snowling
+Comment=A bowling game of luck
+StartupNotify=false
+Exec=snowling
+Icon=snowling
+Terminal=false
+Type=Application
+Categories=Game;ArcadeGame;KidsGame;Graphics

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+	<id type="desktop">snowboarder.desktop</id>
+	<metadata_license>CC-BY-4.0</metadata_license>
+	<project_license>GPL-2.0-only</project_license>
+	<name>Snowboarder</name>
+	<summary>A 3D simple snowboarding game</summary>
+	<description>
+		<p>Use your keyboard arrow keys to move from left to right or left and right click.</p>
+		<p>A web version is available at mrbid.github.io/snowboarder/</p>
+	</description>
+	<screenshots>
+		<screenshot>https://camo.githubusercontent.com/bc4aacd7480c98e057a8c73e033a1766107f07dbf89757861b28e6daadf1b6a4/68747470733a2f2f64617368626f6172642e736e617063726166742e696f2f736974655f6d656469612f6170706d656469612f323032312f31322f53637265656e73686f745f323032312d31322d32315f30362d33312d32322e706e67</screenshot>
+	</screenshots>
+	<url type="homepage">https://notabug.org/Vandarin/Snowboarder</url>
+	<releases>
+		<release version="3.0" date="2023-11-15" />
+	</releases>
+	<content_rating type="oars-1.0" />
+</application>

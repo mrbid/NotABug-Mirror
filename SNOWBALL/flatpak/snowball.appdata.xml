@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+	<id type="desktop">snowball.desktop</id>
+	<metadata_license>CC-BY-4.0</metadata_license>
+	<project_license>GPL-2.0-only</project_license>
+	<name>Snowball</name>
+	<summary>A novel speed run game akin to a platform loop/buzz wire game</summary>
+	<description>
+		<p>Roll around collecting snow and avoiding trees until your snowball is large enough to continue to the next level.</p>
+		<p>The snowball turns green when the next level portals have opened, the portals are located at the north and south poles of the sphere.</p>
+		<p>The larger the snowballs you collect higher the score. Gold snow is double the reward of white.</p>
+		<p>Picking up snow increases your speed temporarily; the idea is to enter a flow of collecting snow so that your speed stays up.</p>
+		<p>Try not to hit the trees as they will slow you down and reduce the mass of your snowball unless your snowball is large enough to consume them. Trees will shrink slightly as you approach them to show that they can be "consumed" aka rolled over without a penalty to snowball size, only speed.</p>
+		<p>The goal? If you need one: complete each level or a sequence of levels with the highest score in the shortest time. I just play it to get lost in a trance and typically play 10 minute long games.</p>
+		<p>The "any key" on your keyboard will open the menu, and all the other controls are bound to the mouse:</p>
+		<p>Left click to toggle mouse focus, scroll and right click for zoom, X1 and X2 or Mouse 4 and 5 will increment or decrement the mouse sensitivity.</p>
+		<p>A web version is available at snowball.mobi</p>
+	</description>
+	<screenshots>
+		<screenshot>https://raw.githubusercontent.com/mrbid/SNOWBALL2/main/screenshot.png</screenshot>
+	</screenshots>
+	<url type="homepage">https://notabug.org/Vandarin/Snowball</url>
+	<releases>
+		<release version="3.0" date="2023-11-15" />
+	</releases>
+	<content_rating type="oars-1.0" />
+</application>

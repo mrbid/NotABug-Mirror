@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+	<id type="desktop">spaceminer.desktop</id>
+	<metadata_license>CC-BY-4.0</metadata_license>
+	<project_license>GPL-2.0-only</project_license>
+	<name>Spaceminer</name>
+	<summary>A 3D space mining game</summary>
+	<description>
+		<p>The aim of the game, whatever you want, try and mine every asteroid if you can. Or just see how long you can survive in space.</p>	
+		<p>On the back of your head are four color cubes, these are minerals collected from mining asteroids, these colors are also present in asteroids, these minerals are converted into on of the four actions: break/mine, repel, stop, and shield (when shiled is empty the two blue fuel cylinders will be consumed as shield).</p>		
+		<ul>
+			<li>ESCAPE = Release mouse lock</li>
+			<li>N = New Game</li>
+			<li>Q = Break Asteroid</li>
+			<li>E = Stop all nearby Asteroids</li>
+			<li>R = Repel all nearby Asteroids</li>
+			<li>W = Thrust Forward</li>
+			<li>A = Turn Left</li>
+			<li>D = Turn Right</li>
+			<li>Shift = Thrust Down</li>
+			<li>Space = Thrust Up</li>
+			<li>Left Click = Break Asteroid</li>
+			<li>Right Click = Repel Asteroid</li>
+			<li>Mouse 4 Click = Stop all Asteroids nearby</li>
+			<li>Scroll = Zoom in/out</li>
+			<li>F = FPS to console</li>
+			<li>P = Player stats to console</li>
+		</ul>
+	</description>
+	<screenshots>
+		<screenshot>https://dashboard.snapcraft.io/site_media/appmedia/2022/01/Screenshot_2022-01-02_18-12-12.png</screenshot>
+	</screenshots>
+	<url type="homepage">https://notabug.org/Vandarin/Spaceminer</url>
+	<releases>
+		<release version="3.0" date="2023-11-15" />
+	</releases>
+	<content_rating type="oars-1.0" />
+</application>

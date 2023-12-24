@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+	<id type="desktop">snowling.desktop</id>
+	<metadata_license>CC-BY-4.0</metadata_license>
+	<project_license>GPL-2.0-only</project_license>
+	<name>Snowling</name>
+	<summary>A bowling game of luck</summary>
+	<description>
+		<p>It's like a fruit machine, random chance, you left click and it bowls a random bowl - a game of chance/luck.</p>
+		<p>A web version is available at mrbid.github.io/snowling/</p>
+	</description>
+	<screenshots>
+		<screenshot>https://camo.githubusercontent.com/e271188cb0f3d2c6a3114e43d530385b431a3bc3fdec43f9aa5f41a7e6427d55/68747470733a2f2f64617368626f6172642e736e617063726166742e696f2f736974655f6d656469612f6170706d656469612f323032312f31322f53637265656e73686f745f323032312d31322d31355f32302d33362d31312e706e67</screenshot>
+	</screenshots>
+	<url type="homepage">https://notabug.org/Vandarin/Snowball</url>
+	<releases>
+		<release version="3.0" date="2023-11-15" />
+	</releases>
+	<content_rating type="oars-1.0" />
+</application>

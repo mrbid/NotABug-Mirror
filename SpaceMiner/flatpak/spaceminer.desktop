@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Spaceminer
+Comment=A 3D space mining game
+StartupNotify=false
+Exec=spaceminer
+Icon=spaceminer
+Terminal=false
+Type=Application
+Categories=Game;ArcadeGame;KidsGame;Graphics
