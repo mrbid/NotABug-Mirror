@@ -1,4 +1,4 @@
-* **Play Online:** https://snowball.mobi
+* **Play Online:** [https://snowball.mobi](https://8smcrlgq850irkn7pmvjzg1s.github.io/)
 * **Flathub:** https://flathub.org/apps/mobi.snowball.Snowball
 * **Windows:** [SNOWBALL_win.zip](https://github.com/mrbid/NotABug-Mirror/releases/download/SnowballWindows/SNOWBALL_win.zip)
 
