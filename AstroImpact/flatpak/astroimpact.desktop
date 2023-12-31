@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=AstroImpact
+Comment=A multi-player space game, defend the planet from the incoming asteroids!
+StartupNotify=false
+Exec=astroimpact
+Icon=astroimpact
+Terminal=false
+Type=Application
+Categories=Game;ArcadeGame;Simulation;Graphics;

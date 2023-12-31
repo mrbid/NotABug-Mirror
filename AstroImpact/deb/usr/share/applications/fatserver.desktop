@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=AstroImpact (UDP/IPv4) Server
+Exec=fatserver
+Icon=/usr/share/icons/hicolor/192x192/fatserver192x192.png
+Terminal=true
+Type=Application
+Categories=Game;ArcadeGame;Simulation;Graphics;Network;

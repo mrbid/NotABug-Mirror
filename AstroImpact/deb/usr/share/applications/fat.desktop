@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=AstroImpact (UDP/IPv4)
+Comment=A multi-player space game, defend the planet from the incoming asteroids!
+Exec=fat
+Icon=/usr/share/icons/hicolor/192x192/fat192x192.png
+Type=Application
+Categories=Game;ArcadeGame;Simulation;Graphics;

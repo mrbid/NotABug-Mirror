@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+	<id type="desktop">fat.desktop</id>
+	<metadata_license>CC-BY-4.0</metadata_license>
+	<project_license>GPL-3.0</project_license>
+	<name>AstroImpact (UDP/IPv4)</name>
+	<summary>A multi-player space game, defend the planet from the incoming asteroids!</summary>
+	<description>
+		<p>Play with friends online to defend the planet! Longest time to first impact or longest time to 100% damage. You destroy asteroids by flying into them before they hit the planet!</p>
+		<ul>
+			<li>Use W,A,S,D,Q,E,SPACE &amp; LEFT SHIFT to move around.</li>
+			<li>L-CTRL / Right Click to Brake.</li>
+			<li>L-ALT / Mouse 3/4 Click to Instant Brake.</li>
+			<li>R = Toggle auto-tilt/roll around planet.</li>
+			<li>Q+E to stop rolling.</li>
+			<li>Escape / Left Click to free mouse focus.</li>
+			<li>F = FPS to console.</li>
+		</ul>
+	</description>
+	<screenshots>
+		<screenshot>https://us.v-cdn.net/6030874/uploads/editor/tc/709u56crzud5.png</screenshot>
+		<screenshot>https://us.v-cdn.net/6030874/uploads/editor/qt/6vwxxn05aklb.png</screenshot>
+		<screenshot>https://us.v-cdn.net/6030874/uploads/editor/aa/ubn8tqbf6irz.png</screenshot>
+	</screenshots>
+	<url type="homepage">https://astroimpact.net</url>
+	<releases>
+		<release version="1.0" date="2023-05-31" />
+	</releases>
+	<content_rating type="oars-1.0" />
+</application>
