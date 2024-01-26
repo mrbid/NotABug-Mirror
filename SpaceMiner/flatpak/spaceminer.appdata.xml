@@ -7,7 +7,7 @@
 	<summary>A 3D space mining game</summary>
 	<description>
 		<p>The aim of the game, whatever you want, try and mine every asteroid if you can. Or just see how long you can survive in space.</p>	
-		<p>On the back of your head are four color cubes, these are minerals collected from mining asteroids, these colors are also present in asteroids, these minerals are converted into on of the four actions: break/mine, repel, stop, and shield (when shiled is empty the two blue fuel cylinders will be consumed as shield).</p>		
+		<p>On the back of your head are four color cubes, these are minerals collected from mining asteroids, these colors are also present in asteroids, these minerals are converted into on of the four actions: break/mine, repel, stop, and shield (when shield is empty the two blue fuel cylinders will be consumed as shield).</p>		
 		<ul>
 			<li>ESCAPE = Release mouse lock</li>
 			<li>N = New Game</li>
