@@ -1,0 +1,48 @@
+chat: no client-side chat prediction, server will echo it back (with formatting? maybe have client handle the formatting and just send name/msg, with a default format string sent initially (user can override if desired))
+
+enter build mode <id>
+	all build commands following this will act upon ship <id>
+
+must be in build mode of a valid ship to use:
+	place node <offset from ship origin> <node id>
+	dig node <offset from ship origin>
+	TODO: setup node config, if applicable
+
+enter flight mode <id>
+	exits build mode if applicable (might be switching from flying a different ship), following control commands will act upon ship <id>
+
+must be in flight mode of a valid ship to use:
+	TODO: non-laggy controls
+
+add ship <id> <data>
+	used when a ship enters a player's view range
+	<data> uses format [for each node]<offset><node id>, end is determined by message size
+
+remove ship <id>
+	ship leaves player's view range
+
+ship control change <id> <newvel> <newpos> <newrot> <control data>
+	client expected to predict with the same controls, only re-sent upon control change (if the control change makes any practical difference)
+
+ship fire weapons <id> <which weapons> <target>
+	target may be either a direction or a location relative to a target ship
+
+ship stop firing <id> <which weapons>
+
+ship nodes destroyed <id> <which nodes>
+	these nodes have been destroyed and are no longer a part of the ship
+	<which nodes> uses format [for each node]<offset>, end is determined by message size
+
+ship nodes rebuilt <id> <which nodes>
+	same format as previous, assumes same node id as when this offset was destroyed
+
+ship add nodes <id> <nodes>
+	<nodes> uses format [for each node]<offset><node id>, end is determined by message size
+
+your ship damage change <data>
+	<data> uses format [for each node]<offset><how much damage>, end is determined by message size
+	<how much damage> is an absolute value, not relative to previous damage
+	includes the purpose of the previous `ship nodes rebuilt` command, `ship add nodes` is not relevant for your own ship (since you would be the one doing it)
+
+TODO: the rest of these commands, and actual details of how these are sent
+	some of these will likely also include a timestamp

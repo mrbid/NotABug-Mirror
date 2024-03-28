@@ -1,0 +1,220 @@
+
+base block
+- hardness
+
+blocks can assume their own direction such as wires know which are the sides based on connection of either side wires etc.
+
+pipeblocks - a block type used to create cavities of air inside a ship which will then be used as liquid or gas fuel storage, usually have some thrusters as an output
+
+pipeblocks will fill that air cavity with fuel block, using light brightness node variable as the amount of fuel left in that node. Probably tbh just average it all into some hidden single variable.
+
+thrusters and such will have assignable key triggers in that machine itself
+
+-------------------
+
+sensors (generates 0-1 output for lights)
+- speed sensor
+- X,Y,Z angle sensor (can be used for stealth, camoflague)
+- heat sensor
+- fuel sensor
+- storage sensor
+
+battery block
+- some general glow from it fades out to greyscale for power level
+- battey level sends to connected light blocks
+
+Light Blocks (8 or 16 colors)
+- can be connected to machines directly in array or via wiring conduits to control their brightnesss
+
+wiring conduit
+- a block/tunnel of wires, connects machine blocks
+
+structural frame
+- a very hard block that also doubles as a wiring conduit
+
+window block
+ - non-transparent, black with silvery highlights, nice edge pieces? (space high-tint windows)
+
+copper heat block
+- spreads heat across an area
+
+infrared heat radiators
+- projects heat out as IR dependent of how much incoming light there is
+https://www.quora.com/Why-are-radiators-on-satellites-flat-Wouldnt-a-more-complex-surface-help-with-emitting-the-infrared-radiation
+
+pipes thruster block
+- part of the piping system, so you have pipeblocks to make pipe channels of air and then place a thruster at the exit pipe, the enclosed area behind the truster in the piping system becomes the storage capacity
+
+ion thruster block
+- directly controled by electric
+https://en.wikipedia.org/wiki/Ion_thruster
+
+solar panel block
+- generates electric, creates ambient heat
+
+nuclear core
+- requires uranium refiner, generates electric and heat
+- produces xenon gas as a byproduct
+
+uranium refiner
+- generates uranium for nucelar core
+
+oxygen refiner
+- generates oxygen for a pipeblock cavity
+
+release valve
+- allows two chambers of gasses to be mixed into one chamber in pipeblocks
+
+thrust back power
+- blocks you place around your thrust out cone to catch kinetic energy and turn it back to electric
+
+heat to electric block
+- low yeild electric, doesn't reduce heat levels much either
+
+ore storage
+- inventories for your ships mining resources
+
+combat/mining laser (pulse & beam) 
+- damages blocks
+- shoots a laser beam out of its only exposed face towards an asteroid
+- directional stacks of them increase the power
+
+laser lense
+- focuses the power, can be stacked directionally on the ends of laser arrays
+- less flash and more sap, like a silencer on a high power rifle vs a big energy wave
+
+mining vaccume
+- suction intake that collects debris from mined asteroids
+
+protection field generator
+- protects a ship while it has power available to it, electric costs depends on how many blocks make up the object
+
+liquid/gas fuel refiner
+- uses ores from ore storage to create liquid or gas fuel into a pipeblocks cavity
+
+carbon fibre shield
+- heat shield
+- damage shield
+
+aluminium shielding
+- sharp spec map
+- colorable (16 colors?)
+
+composite plastic shielding
+- diffuse spec map
+- colorable (16 colors?)
+
+floor/wall beams
+- general hardness, vanity
+
+shock absorbing blocks
+- absorb impact forces to reduce deeper spread
+
+railgun
+- how many in array defines how large the projectile is
+
+
+--- hax
+
+Force field projector (replaces/renamed from protection field generator)
+	Places a shield to block attacks in a particular location
+	Power draw scales linearly with distance from projector (in cubic distance) and with the area of it
+	Power usage will significantly increase when hit, and it will heat up significantly
+		Amount of power/heat is determined by how much damage the shot could have dealt and the distance from the projector
+		Much better at blocking physical projectiles, and can be pierced by powerful enough lasers without the shield going down
+
+Railgun (part, can combine multiple to get a bigger but otherwise the same projectile)
+	Launches a physical projectile at high velocities towards the target, projectile must be conductive and an electromagnet (typically metals)
+	Requires ammo, but uses less power than lasers and will usually deal much more damage if it makes it through shields
+
+Railgun extension
+	Stacks with railguns to make the projectile go faster, increases damage dealt for the same ammo but has dimishing returns, requires power when in use
+
+Mirror hull
+	Takes about half the damage from lasers vs other materials, other half gets reflected away, potentially damaging the attacker
+
+
+
+
+
+--- probably not needed below
+
+auto rebuilder
+- saves snapshot of ship to rebuild back to
+
+copper vapour chamber
+- moves heat between two areas of extreme change
+
+
+--------  crypto
+
+server mining rig
+
+
+
+-------- other
+
+storage glows green when empty and light off when full
+
+ship frame protects every node around it until fully damaged
+
+cold penalty batteries drain faster
+
+ship scanning, lets user know if someone scanned the horizontal layers of their ship
+- sanning does horizontal then vertical
+
+only place where blocks can connect to
+
+electric is everywhere
+fueltank to storage or refinary
+nuclear to storage or refinary
+xenon ion thruster to xenon nuclear
+xenon nuclear to nuclear
+fuel thruster to fuel tank
+
+
+always on graphics
+average totals for ship handling, energy input, energy use for moving and turning, etc
+
+?weapon systems fire on a grouping system
+- nah all in one and have the weapons focused around the center of the ship
+
+
+copper heat block as starting node
+
+
+at more than 50% damage your ship is done
+OR you lose all thrusters
+
+
+it limits the selection of blocks you can place depending on what node you are looking at
+
+
+
+-----------------------
+
+uranium
+liquid fuel
+scrap
+
+-----------------------
+
+free space penalty, longest distances between nodes indexed and computed into a penalty
+allowing ships to have floating parts at a penalty cost of sorts.
+
+armor nodes have an auto-heal rate once fully damaged they are destroyed and maybe at most leave only some scraps to pickup
+
+everything converts back to cost price, placing a node buys that node and digging/deleting the node return the price back to your credits balance.
+
+this means when you combat with ships, armor is destroyed to some base scrap at most and other nodes are detatched to float freely and be collected, once a ship has been neutralised a player can leave their ship to manually mine it or shoot lasers to detatch and harvest valuable nodes.
+
+make railgun accelerators really expensive, they allow users to make a single rail more powerful without expending more resources other than elecricity which is renewable, rails are not renewable and need to be made from mined resources.
+
+to implement:
+- stacking rail accelerators against stacks of railguns
+- stacking lasers
+line array detection, could be quite expensive esp. due to every block having an omni directional potential :'(
+probably just touching detection buff
+
+
+
