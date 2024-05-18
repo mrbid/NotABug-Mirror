@@ -6,3 +6,6 @@ These are updated repositories that had been published on [NotABug](https://nota
 * [CubeShooter](https://mrbid.github.io/cubeshooter/)
 * [SpaceMiner](https://mrbid.github.io/spaceminer/)
 * [Snowboarder](https://mrbid.github.io/snowboarder)
+
+## License
+- It's all MIT apart from [Snowball](SNOWBALL) which is GPL2-Only.
